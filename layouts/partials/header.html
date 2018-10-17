@@ -1,3 +1,5 @@
+
+<link rel="shortcut icon" href="/favicon.ico?v=kPP08pKEXB">
 <div class="show-sm">
     <div id="nav-toggle-box">
       <div id="nav-toggle-brand">
@@ -19,6 +21,7 @@
     </nav>
     <nav id="top-nav-extra">
       <ul>
+          <img src="{{ "msne.svg" | absURL }}" style="max-width: 100%; height: auto;" width="100">
         {{ range .Site.Menus.extra }}
           <li>
             <a href="{{ .Permalink }}">{{ .Name }}</a>
