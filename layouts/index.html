@@ -4,16 +4,52 @@
 
 <div id="main">
   <div id="hero">
-    <h1>{{.Title}}</h1>
+    <h1>Neuroengineering <br /> Journal Club</h1>
     <p>{{.Description}}</p>
   </div>
-  <div id="action-buttons">
-    <a class="button primary big" href="https://github.com/jeblister/kube/releases" onclick="_gaq.push(['_trackEvent', 'kube', 'download']);">Download</a> <a class="button outline big" href="https://github.com/jeblister/kube" onclick="_gaq.push(['_trackEvent', 'kube', 'github']);">View on Github</a>
-    <p>Zip-archive, includes all the source and site example files</p>
+
+  <div class="form-subscribe">
+      <div id="form-subscribe-success" style="display: none;"></div>
+  <div id="form-subscribe-box">
+          <h4>Follow us to check in for next talk.</h4>
+          <p>Monthly news &amp; updates. Just straight to the point.</p>
+
+          <form action="" name="mc-embedded-subscribe-form" method="post" class="form"><input type="hidden" name="authorize-token" value="">
+              <div id="subscribe-email-validation-error"></div>
+              <div class="form-item">
+                  <!-- Begin Mailchimp Signup Form -->
+                  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                  <style type="text/css">
+                  	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                  	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                  	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                  </style>
+                  <div id="mc_embed_signup">
+                  <form action="https://github.us19.list-manage.com/subscribe/post?u=340f80b3f4f2052dc78ed2cb8&amp;id=639a4bffa2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                      <div id="mc_embed_signup_scroll">
+                  	<!-- <label for="mce-EMAIL">Subscribe to our mailing list</label> -->
+                  	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_340f80b3f4f2052dc78ed2cb8_639a4bffa2" tabindex="-1" value=""></div>
+                      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                      </div>
+                  </form>
+                  </div>
+
+                  <!--End mc_embed_signup-->
+                  <!-- <div class="append">
+                      <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="Email">
+                      <button class="button">Subscribe</button>
+                  </div> -->
+              </div>
+
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="" tabindex="-1" value=""></div>
+          </form>
+
+      </div>
   </div>
-  <div class="message focus" data-component="message"> <span class="close small"></span>
-    <a class="button inverted small " href="https://imperavi.com/kube/" >Kube </a> from <a href="https://imperavi.com/">imperavi</a> is an awesome <mark>CSS & JS Framework</mark> and i designed this template for <a href="https://gohugo.io">hugo</a> with the same original philosophy !
-  </div>
+
   <div id="kube-features">
     <div class="row gutters">
       <div class="col col-4 item">
